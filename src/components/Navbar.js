@@ -33,7 +33,7 @@ function Navbar() {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-links" href="https://github.com/prayge/website">
+						<a className="nav-links" href="https://github.com/prayge">
 							<img
 								alt="GitHub"
 								width="32"
