@@ -1,5 +1,9 @@
+:root {
+    --bg: transparent;
+}
+
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: var(--bg);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -11,14 +15,20 @@
 }
 
 .navbar-container {
+    background: var(--bg);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 120px;
+    height: 80px;
     max-width: 1500px;
 }
 
+.nav-img {
+    background: var(--bg);
+}
+
 .navbar-logo {
+    background: var(--bg);
     color: #fff;
     justify-self: start;
     margin-left: 20px;
@@ -35,6 +45,7 @@
 }
 
 .nav-menu {
+    background: var(--bg);
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-gap: 10px;
@@ -46,12 +57,14 @@
 }
 
 .nav-item {
+    background: transparent;
     height: 60px;
     width: 60px;
     margin-bottom: 10px;
 }
 
 .nav-links {
+    background: var(--bg);
     margin-top: 14px;
     color: #fff;
     display: flex;

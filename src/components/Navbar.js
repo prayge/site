@@ -25,6 +25,7 @@ function Navbar() {
 							href="https://www.linkedin.com/in/samuel-farquhar-881851146/"
 						>
 							<img
+								className="nav-img"
 								alt="Linkedin"
 								width="32"
 								height="32"
@@ -35,6 +36,7 @@ function Navbar() {
 					<li className="nav-item">
 						<a className="nav-links" href="https://github.com/prayge">
 							<img
+								className="nav-img"
 								alt="GitHub"
 								width="32"
 								height="32"
