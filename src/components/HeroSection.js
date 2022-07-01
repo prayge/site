@@ -6,10 +6,11 @@ import "./HeroSection.css";
 function HeroSection() {
 	return (
 		<div className="hero-container">
-			<video src="./videos/video-1.mp4" autoPlay loop muted />
-			<h1>Samuel Farquhar</h1>
-			<h2>Machine Learning Engineer</h2>
-			<p>Pytorch, Deep learning, Medical Imaging, Radiology</p>
+			<h1>
+				Hello, I'm
+				<span class="highlight"> Samuel Farquhar</span>. I'm an aspiring Machine
+				Learning Engineer
+			</h1>
 			<div className="hero-btns">
 				<Button
 					className="btn"
@@ -17,7 +18,7 @@ function HeroSection() {
 					buttonSize="btn--large"
 					onClick={console.log("hey")}
 				>
-					RESUME <i class="fas fa-arrow-alt-circle-down"></i>
+					RESUME
 				</Button>
 			</div>
 		</div>
