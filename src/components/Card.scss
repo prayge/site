@@ -28,8 +28,8 @@ $radius: 1rem;
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
-  gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 20rem));
+  gap: 1rem;
   justify-content: center;
   margin-bottom: 50px;
 }
@@ -44,7 +44,7 @@ $radius: 1rem;
   justify-content: space-between;
   cursor: pointer;
   transition: transform 100ms ease-in;
-
+  
   
   &__image {
     height: 12rem;
@@ -73,6 +73,7 @@ $radius: 1rem;
     font-family: inherit;
     font-weight: bold;
     font-size: 12px;
+    
     margin: 1rem;
     background: transparent;
     color: white;
