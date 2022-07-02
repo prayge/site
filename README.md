@@ -4,3 +4,4 @@
 - [ ] [Animation on scroll](https://css-tricks.com/books/greatest-css-tricks/scroll-animation/)
 - [ ] Card animation
 - [ ] blur on scroll
+- [ ] [bg](https://codepen.io/MarcoGuglielmelli/pen/lLCxy)

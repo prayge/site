@@ -1,8 +1,12 @@
 :root {
     --primary: transparent;
+    --bg: transparent;
+
 }
 
 .btn {
+    background: var(--bg);
+
     padding: 8px 20px;
     border-radius: 2px;
     outline: none;
@@ -32,6 +36,7 @@
 }
 
 .btn--large {
+    background: var(--bg);
     padding: 12px 26px;
     font-size: 20px;
 }

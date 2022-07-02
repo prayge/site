@@ -15,6 +15,7 @@
 }
 
 .n-icon {
+    background: var(--bg);
     margin-left: 20px;
 }
 
