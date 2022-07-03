@@ -1,0 +1,104 @@
+* {
+    font-family: 'Trispace', sans-serif;
+
+}
+
+.skills-bar {
+    width: 640px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 15rem;
+    padding: 10px;
+    position: relative;
+    border: 1px solid white;
+}
+
+.skills-bar .bar {
+    margin: 20px;
+}
+
+.skills-bar .bar .info {
+    margin-bottom: 5px;
+}
+
+.skills-bar .bar .info span {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.skills-bar .bar .progress-line {
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background-color: #242424;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05), 0px 1px rgba(101, 97, 97, 0.8);
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+
+.bar .progress-line span {
+    height: 100%;
+    width: 80%;
+    background: #43bcb4;
+    position: absolute;
+
+}
+
+.bar .progress-line span::before {
+    position: absolute;
+    content: "";
+    height: 0;
+    width: 0;
+    right: 0;
+    top: -10px;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: white;
+}
+
+.bar .progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -28px;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    background: white;
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+
+.progress-line.amongus span::after {
+    content: "80%";
+}
+
+.progress-line.fart span::after {
+    content: "60%";
+}
+
+.progress-line.poop span::after {
+    content: "55%";
+}
+
+
+.progress-line.amongus span {
+    width: 80%;
+}
+
+.progress-line.fart span {
+    width: 60%;
+}
+
+.progress-line.poop span {
+    width: 55%;
+}

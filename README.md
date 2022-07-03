@@ -5,3 +5,4 @@
 - [ ] Card animation
 - [ ] blur on scroll
 - [ ] [bg](https://codepen.io/MarcoGuglielmelli/pen/lLCxy)
+- [ ] [css on scroll ](https://coolcssanimation.com/how-to-trigger-a-css-animation-on-scroll/)

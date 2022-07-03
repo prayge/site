@@ -2,11 +2,13 @@ import "../../App.css";
 import React from "react";
 import HeroSection from "../HeroSection";
 import Card from "../Card";
+import SkillsBar from "../SkillsBar";
 
 function Home() {
 	return (
 		<>
 			<HeroSection />
+			<SkillsBar />
 			<div className="wrapper">
 				<Card
 					img="../../images/genn.gif"
