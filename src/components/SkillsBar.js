@@ -6,25 +6,49 @@ function SkillsBar() {
 		<div className="skills-bar">
 			<div className="bar">
 				<div className="info">
-					<span>Amongus</span>
+					<span>Python</span>
 				</div>
-				<div className="progress-line amongus">
+				<div className="progress-line python">
 					<span></span>
 				</div>
 			</div>
 			<div className="bar">
 				<div className="info">
-					<span>Fart</span>
+					<span>C++</span>
 				</div>
-				<div className="progress-line fart">
+				<div className="progress-line cpp">
 					<span></span>
 				</div>
 			</div>
 			<div className="bar">
 				<div className="info">
-					<span>Poop</span>
+					<span>HTML</span>
 				</div>
-				<div className="progress-line">
+				<div className="progress-line html">
+					<span></span>
+				</div>
+			</div>
+			<div className="bar">
+				<div className="info">
+					<span>CSS</span>
+				</div>
+				<div className="progress-line css">
+					<span></span>
+				</div>
+			</div>
+			<div className="bar">
+				<div className="info">
+					<span>React.js</span>
+				</div>
+				<div className="progress-line react">
+					<span></span>
+				</div>
+			</div>
+			<div className="bar">
+				<div className="info">
+					<span>JavaScript</span>
+				</div>
+				<div className="progress-line js">
 					<span></span>
 				</div>
 			</div>
