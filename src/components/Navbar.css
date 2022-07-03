@@ -16,7 +16,7 @@
 
 .n-icon {
     background: var(--bg);
-    margin-left: 20px;
+    margin-left: 4rem;
 }
 
 .navbar-container {
@@ -83,10 +83,6 @@
 }
 
 
-.fa-bars {
-    color: #fff;
-}
-
 .nav-links-mobile {
     display: none;
 }
@@ -126,6 +122,10 @@
         margin-bottom: 10%;
     }
 
+    .n-icon {
+        margin-top: 0.5rem;
+    }
+
     .nav-links {
         text-align: center;
         padding: 1rem 1rem;
@@ -149,11 +149,5 @@
         font-size: 1.8rem;
         cursor: pointer;
     }
-
-    .fa-times {
-        color: #fff;
-        font-size: 2rem;
-    }
-
 
 }
