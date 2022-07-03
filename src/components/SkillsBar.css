@@ -3,6 +3,10 @@
 
 }
 
+.skills-container {
+    margin-top: 300px
+}
+
 .skills-bar {
     width: 640px;
     height: auto;
@@ -85,6 +89,14 @@
 
 .progress-line.python span {
     width: 90%;
+}
+
+.progress-line.pt span::after {
+    content: "80%";
+}
+
+.progress-line.pt span {
+    width: 80%;
 }
 
 .progress-line.cpp span::after {
