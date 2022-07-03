@@ -102,3 +102,34 @@
 .progress-line.poop span {
     width: 55%;
 }
+
+@media screen and (max-width: 960px) {
+    .skills-bar {
+        width: 300px;
+        height: auto;
+    }
+
+    .skills-bar .bar {
+        margin: 10px;
+    }
+
+    .skills-bar .bar .info span {
+        font-size: 12px;
+        font-weight: bold;
+        color: white;
+    }
+
+
+    .bar .progress-line span::after {
+        position: absolute;
+        right: 0;
+        top: -26px;
+        color: black;
+        font-size: 12px;
+        font-weight: bolder;
+        background: white;
+        padding: 1px 4px;
+        border-radius: 3px;
+    }
+
+}

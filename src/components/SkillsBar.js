@@ -24,7 +24,7 @@ function SkillsBar() {
 				<div className="info">
 					<span>Poop</span>
 				</div>
-				<div className="progress-line poop">
+				<div className="progress-line">
 					<span></span>
 				</div>
 			</div>
