@@ -9,7 +9,6 @@ function Navbar() {
 
 	const closeMobileMenu = () => setClick(false);
 
-
 	return (
 		<nav className="navbar">
 			<div className="navbar-container">
@@ -18,7 +17,7 @@ function Navbar() {
 						alt=""
 						width="59"
 						height="59"
-						src="../../images/l3.png"
+						src="../../images/logo.png"
 						className="n-icon"
 					/>
 				</Link>
