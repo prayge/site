@@ -61,10 +61,32 @@ video {
     margin-left: 4px;
 }
 
+@media screen and (max-width: 960px) {
+    .hero-container>h1 {
+        font-size: 18px;
+        margin-top: -400px;
+        width: 70%;
+    }
+
+    .highlight {
+        font-size: 18px;
+        margin-top: -400px;
+        width: 70%;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .hero-container>h1 {
         font-size: 18px;
         margin-top: -400px;
+        width: 70%;
+    }
+
+    .highlight {
+        font-size: 18px;
+        margin-top: -400px;
+        width: 70%;
     }
 
     .btn-mobile {

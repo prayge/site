@@ -29,7 +29,7 @@ $radius: 1rem;
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 20rem));
-  gap: 1rem;
+  gap: 0rem;
   justify-content: center;
   margin-bottom: 50px;
 }
