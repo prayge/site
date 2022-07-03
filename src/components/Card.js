@@ -14,7 +14,12 @@ function Card(props) {
 					</h2>
 				</div>
 				<div className="card__center">
-					<button className="card__btn">Explore</button>
+					<button
+						className="card__btn"
+						onClick={() => window.open(props.link, "_blank")}
+					>
+						Explore
+					</button>
 				</div>
 			</div>
 		</div>
