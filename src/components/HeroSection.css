@@ -80,7 +80,8 @@ video {
     .hero-container>h1 {
         font-size: 18px;
         margin-top: -400px;
-        width: 70%;
+        width: 80%;
+        text-align: center;
     }
 
     .highlight {
