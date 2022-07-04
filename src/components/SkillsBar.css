@@ -52,7 +52,7 @@
 .bar .progress-line span {
     height: 100%;
     width: 80%;
-    background: #43bcb4;
+    background: linear-gradient(0.25turn, #8feae4, #0aa197);
     position: absolute;
 
 }
