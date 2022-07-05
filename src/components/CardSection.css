@@ -2,6 +2,10 @@
     background: transparent;
 }
 
+.cards {
+    margin-top: 10rem;
+}
+
 .card-title {
     height: auto;
     width: 200px;
