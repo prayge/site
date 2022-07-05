@@ -1,5 +1,5 @@
 .contact-info-wrapper {
-    width: 40%;
+    width: 100%;
     box-sizing: border-box;
     height: auto;
     padding: 2rem;
@@ -22,9 +22,4 @@
     background: transparent;
     color: white;
     font-size: 19px;
-}
-
-.icon .image {
-    height: 52px;
-    width: 52px;
 }

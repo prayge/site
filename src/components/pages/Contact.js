@@ -1,5 +1,5 @@
 import React from "react";
-import ContactSection from "./ContactSection";
+import ContactSection from "../contact/ContactSection";
 import Margin from "../style-components/Margin";
 
 function Contact() {
