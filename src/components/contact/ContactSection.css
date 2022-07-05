@@ -1,7 +1,17 @@
 .contact-wrapper {
     display: flex;
     gap: 2rem;
-    width: 100%;
+    width: 60%;
     height: auto;
     justify-content: center;
+    position: relative;
+    left: 20%;
+}
+
+.contact-wrapper .left {
+    width: 100%;
+}
+
+.contact-wrapper .right {
+    width: 100%;
 }
