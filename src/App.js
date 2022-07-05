@@ -6,6 +6,7 @@ import Home from "./components/pages/Home";
 import SkillsBar from "./components/SkillsBar";
 import CardSection from "./components/CardSection";
 import Contact from "./components/Contact";
+import About from "./components/About";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 				<Navbar />
 				<Routes>
 					<Route path="/" element={<Home />} />
+					<Route path="/about" element={<About />} />
 					<Route path="/skills" element={<SkillsBar />} />
 					<Route path="/projects" element={<CardSection />} />
 					<Route path="/contact" element={<Contact />} />
