@@ -4,9 +4,9 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import SkillsBar from "./components/SkillsBar";
-import CardSection from "./components/CardSection";
-import Contact from "./components/Contact";
-import About from "./components/About";
+import CardSection from "./components/pages/CardSection";
+import Contact from "./components/pages/Contact";
+import About from "./components/pages/About";
 
 function App() {
 	return (

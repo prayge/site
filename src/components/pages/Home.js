@@ -2,7 +2,7 @@ import "../../App.css";
 import React from "react";
 import HeroSection from "../HeroSection";
 import SkillsBar from "../SkillsBar";
-import CardSection from "../CardSection";
+import CardSection from "./CardSection";
 
 function Home() {
 	return (
