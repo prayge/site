@@ -21,6 +21,38 @@ function Navbar() {
 						className="n-icon"
 					/>
 				</Link>
+				<div className="nav-routes">
+					<Link
+						to="/about"
+						className="nav-routes about"
+						onClick={closeMobileMenu}
+					>
+						About
+					</Link>
+					<Link
+						to="/skills"
+						className="nav-routes skills"
+						onClick={closeMobileMenu}
+					>
+						Skills
+					</Link>
+
+					<Link
+						to="/projects"
+						className="nav-routes projects"
+						onClick={closeMobileMenu}
+					>
+						Projects
+					</Link>
+					<Link
+						to="/contact"
+						className="nav-routes contact"
+						onClick={closeMobileMenu}
+					>
+						Contact
+					</Link>
+				</div>
+
 				<div className="menu-icon" onClick={handleClick}>
 					<i className={click ? "fas fa-times" : "fas fa-bars"} />
 				</div>

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import SkillsBar from "./components/SkillsBar";
 import CardSection from "./components/CardSection";
+import Contact from "./components/Contact";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 					<Route path="/" exact element={<Home />} />
 					<Route path="/skills" element={<SkillsBar />} />
 					<Route path="/projects" element={<CardSection />} />
+					<Route path="/contact" element={<Contact />} />
 				</Routes>
 			</Router>
 		</>
