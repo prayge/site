@@ -25,7 +25,9 @@ function ContactSection() {
 							icon={<MdLocationPin size={30} />}
 						/>
 					</div>
-					<div className="right"></div>
+					<div className="right">
+						
+					</div>
 				</div>
 			</div>
 		</div>
