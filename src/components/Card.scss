@@ -34,14 +34,15 @@ $radius: 1rem;
   margin-bottom: 50px;
 }
 
-
+.card-container {
+  margin-top: 300px;
+}
 
 .card {
   
   width: 300px;
   height: 450px;
   overflow: hidden;
-  margin: 1rem;
   border: solid white 1px;
   display: flex;
   flex-direction: column;
@@ -61,8 +62,7 @@ $radius: 1rem;
 }
 
   &__title {
-    font-family: 'Trispace', sans-serif;
-    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;    padding: 1rem;
     font-size: 20px;
   }
 

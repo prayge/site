@@ -4,6 +4,12 @@ import "./SkillsBar.css";
 function SkillsBar() {
 	return (
 		<div className="skills-container">
+			<div className="skills-title">
+				<h1>
+					here are my
+					<span> SKILLS</span>
+				</h1>
+			</div>
 			<div className="skills-bar">
 				<div className="bar">
 					<div className="info">
