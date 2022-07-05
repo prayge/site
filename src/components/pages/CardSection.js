@@ -1,15 +1,14 @@
 import React from "react";
 import Card from "../Card";
+import SectionTitle from "../SectionTitle";
+import Margin from "../style-components/Margin";
 import "./CardSection.css";
 
 function CardSection() {
 	return (
-		<div className="cards">
-			<div className="card-title">
-				<h1>
-					some of my <span> PROJECTS</span>
-				</h1>
-			</div>
+		<div>
+			<Margin />
+			<SectionTitle subtitle="some of my" title="PROJECTS" />
 			<div className="wrapper">
 				<Card
 					img="../../images/genn.gif"

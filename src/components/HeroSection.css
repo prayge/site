@@ -19,7 +19,7 @@ video {
 .hero-container {
     margin-top: 135px;
     backdrop-filter: blur(5px);
-    background: url('./images/bg-t.png') center center/cover no-repeat;
+    background: url('./style-components/bg/bg-t.png') center center/cover no-repeat;
     height: 70vh;
     width: 100%;
     display: flex;
