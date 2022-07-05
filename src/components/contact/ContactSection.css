@@ -1,17 +1,48 @@
+.container {
+    width: 90%;
+    display: table;
+    margin: 20px auto 30px auto;
+
+}
+
 .contact-wrapper {
+    width: 100%;
     display: flex;
-    gap: 2rem;
-    width: 60%;
-    height: auto;
+    gap: 1rem;
     justify-content: center;
-    position: relative;
-    left: 20%;
+
+
 }
 
 .contact-wrapper .left {
-    width: 100%;
+    display: table;
+    margin: 10px 10px 10px 10px;
+    width: 20vw;
 }
 
 .contact-wrapper .right {
-    width: 100%;
+    display: table;
+    margin: 10px 10px 10px 10px;
+    width: 38vw;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-wrapper {
+        flex-direction: column;
+    }
+
+    .contact-wrapper .left {
+        display: table;
+        margin: 0 auto;
+        width: 75vw;
+    }
+
+    .contact-wrapper .right {
+        display: table;
+        margin: 0 auto;
+        width: 75vw;
+
+    }
+
 }

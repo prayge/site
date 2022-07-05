@@ -9,27 +9,22 @@ import "./ContactSection.css";
 
 function ContactSection() {
 	return (
-		<div>
-			<div className="container">
-				<SectionTitle title="CONTACT" subtitle="get in " />
-				<div className="contact-wrapper">
-					<div className="left">
-						<ContactInfo
-							text="samuel_farquhar@aol.com"
-							icon={<MdAlternateEmail size={30} />}
-						/>
-						<ContactInfo
-							text="07943800980"
-							icon={<MdPhoneIphone size={30} />}
-						/>
-						<ContactInfo
-							text="Edinburgh, Scotland"
-							icon={<MdLocationPin size={30} />}
-						/>
-					</div>
-					<div className="right">
-						<ContactForm />
-					</div>
+		<div className="container">
+			<SectionTitle title="CONTACT" subtitle="get in " />
+			<div className="contact-wrapper">
+				<div className="left">
+					<ContactInfo
+						text="samuel_farquhar@aol.com"
+						icon={<MdAlternateEmail size={30} />}
+					/>
+					<ContactInfo text="07943800980" icon={<MdPhoneIphone size={30} />} />
+					<ContactInfo
+						text="Edinburgh, Scotland"
+						icon={<MdLocationPin size={30} />}
+					/>
+				</div>
+				<div className="right">
+					<ContactForm />
 				</div>
 			</div>
 		</div>
