@@ -37,6 +37,7 @@ class ContactForm extends React.Component {
 					name="contact"
 					onSubmit={this.handleSubmit}
 				>
+					<input type="hidden" name="form-name" value="contact" />
 					<div className="form-group">
 						<label htmlFor="name">
 							Your name
