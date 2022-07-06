@@ -8,7 +8,7 @@ function ContactForm() {
 
 	return (
 		<div>
-			<form className="form-container">
+			<form className="form-container" netlify>
 				<div className="form-group">
 					<label htmlFor="name">
 						Your name
