@@ -21,7 +21,11 @@ function Navbar() {
 						className="n-icon"
 					/>
 				</Link>
-				<div className="nav-routes">
+
+				<div className="menu-icon" onClick={handleClick}>
+					<i className={click ? "fas fa-times" : "fas fa-bars"} />
+				</div>
+				<ul className={click ? "nav-menu active" : "nav-menu"}>
 					<Link
 						to="/about"
 						className="nav-routes about"
@@ -29,6 +33,7 @@ function Navbar() {
 					>
 						About
 					</Link>
+
 					<Link
 						to="/skills"
 						className="nav-routes skills"
@@ -44,6 +49,7 @@ function Navbar() {
 					>
 						Projects
 					</Link>
+
 					<Link
 						to="/contact"
 						className="nav-routes contact"
@@ -51,37 +57,26 @@ function Navbar() {
 					>
 						Contact
 					</Link>
-				</div>
 
-				<div className="menu-icon" onClick={handleClick}>
-					<i className={click ? "fas fa-times" : "fas fa-bars"} />
-				</div>
-				<ul className={click ? "nav-menu active" : "nav-menu"}>
-					<li className="nav-item">
-						<a
-							className="nav-links"
-							href="https://www.linkedin.com/in/samuel-farquhar-881851146/"
-						>
-							<img
-								className="nav-img"
-								alt="Linkedin"
-								width="32"
-								height="32"
-								src="../../images/linkedin.png"
-							/>
-						</a>
-					</li>
-					<li className="nav-item">
-						<a className="nav-links" href="https://github.com/prayge">
-							<img
-								className="nav-img"
-								alt="GitHub"
-								width="32"
-								height="32"
-								src="../../images/github.png"
-							/>
-						</a>
-					</li>
+					<a href="https://www.linkedin.com/in/samuel-farquhar-881851146/">
+						<img
+							className="nav-img"
+							alt="Linkedin"
+							width="32"
+							height="32"
+							src="../../images/linkedin.png"
+						/>
+					</a>
+
+					<a href="https://github.com/prayge">
+						<img
+							className="nav-img"
+							alt="GitHub"
+							width="32"
+							height="32"
+							src="../../images/github.png"
+						/>
+					</a>
 				</ul>
 			</div>
 		</nav>

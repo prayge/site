@@ -14,25 +14,13 @@
     z-index: 999;
 }
 
-.nav-routes {
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-    height: auto;
-    padding: 1rem;
-}
-
-
 .n-icon {
     background: var(--bg);
 
 }
 
 .navbar-container {
+    width: 100%;
     background: var(--bg);
     display: flex;
     justify-content: center;
@@ -41,18 +29,16 @@
     max-width: 1500px;
 }
 
-.nav-img {
-    background: var(--bg);
-}
+
 
 .navbar-logo {
     background: var(--bg);
     color: #fff;
-    justify-self: start;
-    margin-left: 20px;
+    width: 60px;
+    height: 60px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+
     display: flex;
     align-items: center;
 }
@@ -61,36 +47,23 @@
 .nav-menu {
     background: var(--bg);
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(10, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 30rem;
-    justify-content: end;
+    width: 90vh;
+    justify-content: flex-end;
     margin-right: 2rem;
 }
 
 .nav-item {
     background: transparent;
-    height: 60px;
-    width: 60px;
-    margin-bottom: 10px;
 }
 
-.nav-links {
+
+.nav-img {
     background: var(--bg);
-    margin-top: 14px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    padding: 1rem 1rem;
-    padding-right: 18px;
-    padding-bottom: 34px;
-    height: 100%;
-    border-spacing: 5px, 20px;
 }
-
 
 .nav-links-mobile {
     display: none;
@@ -127,6 +100,10 @@
         transition: all 0.5s ease;
     }
 
+    .nav-routes {
+        font-size: 12px;
+    }
+
     .nav-menu.active {
         background: #242222;
         left: 0;
@@ -142,7 +119,10 @@
     }
 
     .n-icon {
-        margin-top: 0.5rem;
+        margin-top: 0.9rem;
+        margin-left: 0.15rem;
+        height: 42px;
+        width: 42px;
     }
 
     .nav-links {
@@ -156,6 +136,7 @@
         position: absolute;
         top: 0;
         left: 0;
+        margin-left: 10px;
         transform: translate(20%, 5%);
     }
 

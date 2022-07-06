@@ -1,12 +1,10 @@
 import React from "react";
 import SectionTitle from "../SectionTitle";
-import Margin from "../style-components/Margin";
 import "./SkillsBar.css";
 
 function SkillsBar() {
 	return (
 		<div className="skills-container">
-			<Margin />
 			<SectionTitle subtitle="here are my" title="SKILLS" />
 			<div className="skills-bar">
 				<div className="bar">
