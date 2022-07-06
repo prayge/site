@@ -1,59 +1,80 @@
-import React, { useState } from "react";
 import "./ContactForm.css";
+import React from "react";
 
-function ContactForm() {
-	const [name, setName] = useState("");
-	const [email, setEmail] = useState("");
-	const [message, setMessage] = useState("");
+const encode = (data) => {
+	return Object.keys(data)
+		.map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+		.join("&");
+};
+class ContactForm extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = { name: "", email: "", message: "" };
+	}
 
-	return (
-		<div>
-			<form
-				className="form-container"
-				name="contact-form"
-				action="POST"
-				data-netlify="true"
-			>
-				<div className="form-group">
-					<label htmlFor="name">
-						Your name
-						<input
-							type="text"
-							id="name"
-							name="name"
-							value={name}
-							onChange={(e) => setName(e.target.value)}
-						/>
-					</label>
-				</div>
-				<div className="form-group">
-					<label htmlFor="email">
-						Your email
-						<input
-							type="text"
-							id="email"
-							email="email"
-							value={email}
-							onChange={(e) => setEmail(e.target.value)}
-						/>
-					</label>
-				</div>
-				<div className="form-group">
-					<label htmlFor="message">
-						Your message
-						<textarea
-							type="text"
-							id="message"
-							message="message"
-							value={message}
-							onChange={(e) => setMessage(e.target.value)}
-						/>
-					</label>
-				</div>
-				<button type="submit">Send</button>
-			</form>
-		</div>
-	);
+	/* Here’s the juicy bit for posting the form submission */
+
+	handleSubmit = (e) => {
+		fetch("/", {
+			method: "POST",
+			headers: { "Content-Type": "application/x-www-form-urlencoded" },
+			body: encode({ "form-name": "contact", ...this.state }),
+		})
+			.then(() => alert("Success!"))
+			.catch((error) => alert(error));
+
+		e.preventDefault();
+	};
+
+	handleChange = (e) => this.setState({ [e.target.name]: e.target.value });
+
+	render() {
+		const { name, email, message } = this.state;
+		return (
+			<div>
+				<form
+					className="form-container"
+					name="contact"
+					onSubmit={this.handleSubmit}
+				>
+					<div className="form-group">
+						<label htmlFor="name">
+							Your name
+							<input
+								type="text"
+								name="name"
+								value={name}
+								onChange={this.handleChange}
+							/>
+						</label>
+					</div>
+					<div className="form-group">
+						<label htmlFor="email">
+							Your email
+							<input
+								type="text"
+								name="email"
+								value={email}
+								onChange={this.handleChange}
+							/>
+						</label>
+					</div>
+					<div className="form-group">
+						<label htmlFor="message">
+							Your message
+							<textarea
+								type="text"
+								name="message"
+								value={message}
+								onChange={this.handleChange}
+							/>
+						</label>
+					</div>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+		);
+	}
 }
 
 export default ContactForm;
