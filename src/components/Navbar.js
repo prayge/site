@@ -58,7 +58,10 @@ function Navbar() {
 						Contact
 					</Link>
 
-					<a href="https://www.linkedin.com/in/samuel-farquhar-881851146/">
+					<a
+						className="nav-a"
+						href="https://www.linkedin.com/in/samuel-farquhar-881851146/"
+					>
 						<img
 							className="nav-img"
 							alt="Linkedin"
@@ -68,7 +71,7 @@ function Navbar() {
 						/>
 					</a>
 
-					<a href="https://github.com/prayge">
+					<a className="nav-a" href="https://github.com/prayge">
 						<img
 							className="nav-img"
 							alt="GitHub"
