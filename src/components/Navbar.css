@@ -14,10 +14,6 @@
     z-index: 999;
 }
 
-.n-icon {
-    background: var(--bg);
-
-}
 
 .navbar-container {
     width: 100%;
@@ -38,8 +34,6 @@
     height: 60px;
     cursor: pointer;
     text-decoration: none;
-
-    display: flex;
     align-items: center;
 }
 
@@ -74,14 +68,7 @@
 }
 
 
-@media screen and (min-width: 960px) {
 
-    .n-icon {
-        background: var(--bg);
-        margin-left: 4rem;
-    }
-
-}
 
 @media screen and (max-width: 960px) {
     .NavbarItems {
