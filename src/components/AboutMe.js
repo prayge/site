@@ -11,7 +11,7 @@ function AboutMe() {
 			<div className="container">
 				<div className="about-me-flex">
 					<div className="about-me">
-						<h1>Hi, im Samuel Farquhar</h1>
+						<h1>Hi, I'm Samuel Farquhar</h1>
 						<p>
 							Im from Edinburgh in Scotland, one of the most beautiful cities in
 							the world. I love problem solving and incorporating my ideas into
