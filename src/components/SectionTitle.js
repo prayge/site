@@ -7,6 +7,7 @@ function SectionTitle(props) {
 			<h1>
 				{props.subtitle}
 				<span> {props.title}</span>
+				{props.extra}
 			</h1>
 		</div>
 	);

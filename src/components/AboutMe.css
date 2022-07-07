@@ -1,0 +1,47 @@
+.about-me-container {
+    display: grid;
+    place-items: center;
+}
+
+.about-me {
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: fit-content;
+}
+
+.about-me>h1 {}
+
+.about-me>p {
+
+    margin-top: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 960px) {
+
+
+    .about-me {
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: fit-content;
+    }
+
+    .about-me>h1 {
+        font-size: 23px;
+        margin: 2rem;
+    }
+
+    .about-me>p {
+
+        margin: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+        width: fit-content;
+    }
+
+}
