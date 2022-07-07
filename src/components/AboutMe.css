@@ -18,8 +18,6 @@
     height: fit-content;
 }
 
-.about-me>h1 {}
-
 .about-me>p {
 
     margin-top: 1rem;
@@ -43,6 +41,32 @@
 
 @media screen and (max-width: 960px) {
 
+
+    .about-me-flex {
+        margin-top: 5rem;
+        display: table;
+        justify-content: center;
+
+    }
+
+    .container {
+        flex: grid;
+        place-items: center;
+    }
+
+    .about-me-side {
+        display: flex;
+        margin-left: 0rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-me-side.image {
+
+        height: 70%;
+        width: 70%;
+        filter: grayscale(100%);
+    }
 
     .about-me {
         justify-content: center;
