@@ -1,10 +1,17 @@
-.about-me-container {
-    display: grid;
+.about-me-flex {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    flex: grid;
     place-items: center;
 }
 
 .about-me {
-    margin-top: 5rem;
+
     justify-content: center;
     align-items: center;
     width: 400px;
@@ -18,6 +25,19 @@
     margin-top: 1rem;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
+}
+
+
+.about-me-side {
+    display: flex;
+    margin-left: 4rem;
+}
+
+.about-me-side.image {
+
+    height: 30rem;
+    width: 30rem;
+    filter: grayscale(100%);
 }
 
 
