@@ -18,6 +18,15 @@
     height: fit-content;
 }
 
+.about-me>h2 {
+
+    margin-top: 1rem;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
 .about-me>p {
 
     margin-top: 1rem;
@@ -28,13 +37,16 @@
 
 .about-me-side {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-left: 4rem;
+
 }
 
 .about-me-side.image {
 
-    height: 30rem;
-    width: 30rem;
+    height: 8rem;
+    width: 20rem;
     filter: grayscale(100%);
 }
 

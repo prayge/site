@@ -7,31 +7,27 @@ function AboutMe() {
 	return (
 		<div>
 			<Margin />
-			<SectionTitle title="ABOUT" extra="me" />
+			<SectionTitle title="EXPEREINCE" subtitle="my" />
 			<div className="container">
 				<div className="about-me-flex">
 					<div className="about-me">
-						<h1>Hi, I'm Samuel Farquhar</h1>
+						<h1>Sword Group</h1>
+						<h2>6 Months</h2>
 						<p>
-							Im from Edinburgh in Scotland, one of the most beautiful cities in
-							the world. I love problem solving and incorporating my ideas into
-							a practical solution.
+							ETL consulting for large corporations in different industry
+							sectors such as retail, oil and gas and insurance and finance.
 						</p>
+
 						<p>
-							I've had a passion for healthcare and medicine since i was young
-							and would like to help others out there using my knowledge of
-							programming
-						</p>
-						<p>
-							I try to expand my knowledge constantly working hard at many
-							different things to expand my ability to learn and adapt to new
-							challenges.
+							Implementation of numerous complex data flows to connect
+							operational systems, from Cloud to on-prem systems to varying
+							domains for data for analytics and business intelligence systems.
 						</p>
 					</div>
 					<div className="about-me-side">
 						<img
 							className="about-me-side image"
-							src="../../images/edi.png"
+							src="../../images/sword-logo.png"
 							alt=""
 						/>
 					</div>

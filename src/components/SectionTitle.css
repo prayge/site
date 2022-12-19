@@ -19,7 +19,9 @@
 
 .section-title span {
     margin-top: 4px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 42px;
     background: transparent;

@@ -9,7 +9,7 @@ function SkillsBar() {
 			<div className="skills-bar">
 				<div className="bar">
 					<div className="info">
-						<span>Python</span>
+						<span>Azure Synapse Analytics</span>
 					</div>
 					<div className="progress-line python">
 						<span></span>
@@ -17,7 +17,7 @@ function SkillsBar() {
 				</div>
 				<div className="bar">
 					<div className="info">
-						<span>PyTorch</span>
+						<span>Python</span>
 					</div>
 					<div className="progress-line pt">
 						<span></span>
@@ -25,7 +25,7 @@ function SkillsBar() {
 				</div>
 				<div className="bar">
 					<div className="info">
-						<span>C++</span>
+						<span>Data Warehousing</span>
 					</div>
 					<div className="progress-line cpp">
 						<span></span>
@@ -33,7 +33,7 @@ function SkillsBar() {
 				</div>
 				<div className="bar">
 					<div className="info">
-						<span>HTML</span>
+						<span>Power BI</span>
 					</div>
 					<div className="progress-line html">
 						<span></span>
@@ -41,25 +41,9 @@ function SkillsBar() {
 				</div>
 				<div className="bar">
 					<div className="info">
-						<span>CSS</span>
+						<span>PyTorch and Machine Learning Knowledge</span>
 					</div>
-					<div className="progress-line css">
-						<span></span>
-					</div>
-				</div>
-				<div className="bar">
-					<div className="info">
-						<span>React.js</span>
-					</div>
-					<div className="progress-line react">
-						<span></span>
-					</div>
-				</div>
-				<div className="bar">
-					<div className="info">
-						<span>JavaScript</span>
-					</div>
-					<div className="progress-line js">
+					<div className="progress-line pt">
 						<span></span>
 					</div>
 				</div>
