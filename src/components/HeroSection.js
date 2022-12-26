@@ -8,8 +8,8 @@ function HeroSection() {
 			<div className="hero-container">
 				<h1>
 					Hello, I'm
-					<span class="highlight"> Samuel Farquhar</span>. I'm an aspiring
-					Machine Learning Engineer
+					<span class="highlight"> Samuel Farquhar</span>. I'm a Data Engineer
+					with an interest in Machine Learning
 				</h1>
 			</div>
 			<div className="hero-scroll">
